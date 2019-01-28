@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D98633DB21FFBEAF00D9195F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98633DA21FFBEAF00D9195F /* AppDelegate.swift */; };
+		D98633DD21FFBEAF00D9195F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98633DC21FFBEAF00D9195F /* ViewController.swift */; };
+		D98633E021FFBEAF00D9195F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98633DE21FFBEAF00D9195F /* Main.storyboard */; };
+		D98633E221FFBEB000D9195F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98633E121FFBEB000D9195F /* Assets.xcassets */; };
+		D98633E521FFBEB000D9195F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98633E321FFBEB000D9195F /* LaunchScreen.storyboard */; };
+		D98633F021FFBEB100D9195F /* Dungeons_and_Dragon_DiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98633EF21FFBEB100D9195F /* Dungeons_and_Dragon_DiceTests.swift */; };
+		D98633FB21FFBEB100D9195F /* Dungeons_and_Dragon_DiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98633FA21FFBEB100D9195F /* Dungeons_and_Dragon_DiceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D98633EC21FFBEB100D9195F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D98633CF21FFBEAE00D9195F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D98633D621FFBEAE00D9195F;
+			remoteInfo = "Dungeons and Dragon Dice";
+		};
+		D98633F721FFBEB100D9195F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D98633CF21FFBEAE00D9195F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D98633D621FFBEAE00D9195F;
+			remoteInfo = "Dungeons and Dragon Dice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D98633D721FFBEAF00D9195F /* Dungeons and Dragon Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dungeons and Dragon Dice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98633DA21FFBEAF00D9195F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D98633DC21FFBEAF00D9195F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98633DF21FFBEAF00D9195F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98633E121FFBEB000D9195F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98633E421FFBEB000D9195F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98633E621FFBEB000D9195F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98633EB21FFBEB100D9195F /* Dungeons and Dragon DiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dungeons and Dragon DiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98633EF21FFBEB100D9195F /* Dungeons_and_Dragon_DiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dungeons_and_Dragon_DiceTests.swift; sourceTree = "<group>"; };
+		D98633F121FFBEB100D9195F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98633F621FFBEB100D9195F /* Dungeons and Dragon DiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dungeons and Dragon DiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98633FA21FFBEB100D9195F /* Dungeons_and_Dragon_DiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dungeons_and_Dragon_DiceUITests.swift; sourceTree = "<group>"; };
+		D98633FC21FFBEB100D9195F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D98633D421FFBEAE00D9195F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98633E821FFBEB100D9195F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98633F321FFBEB100D9195F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D98633CE21FFBEAE00D9195F = {
+			isa = PBXGroup;
+			children = (
+				D98633D921FFBEAF00D9195F /* Dungeons and Dragon Dice */,
+				D98633EE21FFBEB100D9195F /* Dungeons and Dragon DiceTests */,
+				D98633F921FFBEB100D9195F /* Dungeons and Dragon DiceUITests */,
+				D98633D821FFBEAF00D9195F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D98633D821FFBEAF00D9195F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D98633D721FFBEAF00D9195F /* Dungeons and Dragon Dice.app */,
+				D98633EB21FFBEB100D9195F /* Dungeons and Dragon DiceTests.xctest */,
+				D98633F621FFBEB100D9195F /* Dungeons and Dragon DiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D98633D921FFBEAF00D9195F /* Dungeons and Dragon Dice */ = {
+			isa = PBXGroup;
+			children = (
+				D98633DA21FFBEAF00D9195F /* AppDelegate.swift */,
+				D98633DC21FFBEAF00D9195F /* ViewController.swift */,
+				D98633DE21FFBEAF00D9195F /* Main.storyboard */,
+				D98633E121FFBEB000D9195F /* Assets.xcassets */,
+				D98633E321FFBEB000D9195F /* LaunchScreen.storyboard */,
+				D98633E621FFBEB000D9195F /* Info.plist */,
+			);
+			path = "Dungeons and Dragon Dice";
+			sourceTree = "<group>";
+		};
+		D98633EE21FFBEB100D9195F /* Dungeons and Dragon DiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D98633EF21FFBEB100D9195F /* Dungeons_and_Dragon_DiceTests.swift */,
+				D98633F121FFBEB100D9195F /* Info.plist */,
+			);
+			path = "Dungeons and Dragon DiceTests";
+			sourceTree = "<group>";
+		};
+		D98633F921FFBEB100D9195F /* Dungeons and Dragon DiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D98633FA21FFBEB100D9195F /* Dungeons_and_Dragon_DiceUITests.swift */,
+				D98633FC21FFBEB100D9195F /* Info.plist */,
+			);
+			path = "Dungeons and Dragon DiceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D98633D621FFBEAE00D9195F /* Dungeons and Dragon Dice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98633FF21FFBEB100D9195F /* Build configuration list for PBXNativeTarget "Dungeons and Dragon Dice" */;
+			buildPhases = (
+				D98633D321FFBEAE00D9195F /* Sources */,
+				D98633D421FFBEAE00D9195F /* Frameworks */,
+				D98633D521FFBEAE00D9195F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dungeons and Dragon Dice";
+			productName = "Dungeons and Dragon Dice";
+			productReference = D98633D721FFBEAF00D9195F /* Dungeons and Dragon Dice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D98633EA21FFBEB100D9195F /* Dungeons and Dragon DiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D986340221FFBEB100D9195F /* Build configuration list for PBXNativeTarget "Dungeons and Dragon DiceTests" */;
+			buildPhases = (
+				D98633E721FFBEB100D9195F /* Sources */,
+				D98633E821FFBEB100D9195F /* Frameworks */,
+				D98633E921FFBEB100D9195F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D98633ED21FFBEB100D9195F /* PBXTargetDependency */,
+			);
+			name = "Dungeons and Dragon DiceTests";
+			productName = "Dungeons and Dragon DiceTests";
+			productReference = D98633EB21FFBEB100D9195F /* Dungeons and Dragon DiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D98633F521FFBEB100D9195F /* Dungeons and Dragon DiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D986340521FFBEB100D9195F /* Build configuration list for PBXNativeTarget "Dungeons and Dragon DiceUITests" */;
+			buildPhases = (
+				D98633F221FFBEB100D9195F /* Sources */,
+				D98633F321FFBEB100D9195F /* Frameworks */,
+				D98633F421FFBEB100D9195F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D98633F821FFBEB100D9195F /* PBXTargetDependency */,
+			);
+			name = "Dungeons and Dragon DiceUITests";
+			productName = "Dungeons and Dragon DiceUITests";
+			productReference = D98633F621FFBEB100D9195F /* Dungeons and Dragon DiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D98633CF21FFBEAE00D9195F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Xiaoyu Hu";
+				TargetAttributes = {
+					D98633D621FFBEAE00D9195F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D98633EA21FFBEB100D9195F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D98633D621FFBEAE00D9195F;
+					};
+					D98633F521FFBEB100D9195F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D98633D621FFBEAE00D9195F;
+					};
+				};
+			};
+			buildConfigurationList = D98633D221FFBEAE00D9195F /* Build configuration list for PBXProject "Dungeons and Dragon Dice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D98633CE21FFBEAE00D9195F;
+			productRefGroup = D98633D821FFBEAF00D9195F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D98633D621FFBEAE00D9195F /* Dungeons and Dragon Dice */,
+				D98633EA21FFBEB100D9195F /* Dungeons and Dragon DiceTests */,
+				D98633F521FFBEB100D9195F /* Dungeons and Dragon DiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D98633D521FFBEAE00D9195F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98633E521FFBEB000D9195F /* LaunchScreen.storyboard in Resources */,
+				D98633E221FFBEB000D9195F /* Assets.xcassets in Resources */,
+				D98633E021FFBEAF00D9195F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98633E921FFBEB100D9195F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98633F421FFBEB100D9195F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D98633D321FFBEAE00D9195F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98633DD21FFBEAF00D9195F /* ViewController.swift in Sources */,
+				D98633DB21FFBEAF00D9195F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98633E721FFBEB100D9195F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98633F021FFBEB100D9195F /* Dungeons_and_Dragon_DiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98633F221FFBEB100D9195F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98633FB21FFBEB100D9195F /* Dungeons_and_Dragon_DiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D98633ED21FFBEB100D9195F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D98633D621FFBEAE00D9195F /* Dungeons and Dragon Dice */;
+			targetProxy = D98633EC21FFBEB100D9195F /* PBXContainerItemProxy */;
+		};
+		D98633F821FFBEB100D9195F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D98633D621FFBEAE00D9195F /* Dungeons and Dragon Dice */;
+			targetProxy = D98633F721FFBEB100D9195F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D98633DE21FFBEAF00D9195F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98633DF21FFBEAF00D9195F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98633E321FFBEB000D9195F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98633E421FFBEB000D9195F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D98633FD21FFBEB100D9195F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D98633FE21FFBEB100D9195F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D986340021FFBEB100D9195F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dungeons and Dragon Dice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOS-2019.Dungeons-and-Dragon-Dice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D986340121FFBEB100D9195F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dungeons and Dragon Dice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOS-2019.Dungeons-and-Dragon-Dice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D986340321FFBEB100D9195F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dungeons and Dragon DiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOS-2019.Dungeons-and-Dragon-DiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dungeons and Dragon Dice.app/Dungeons and Dragon Dice";
+			};
+			name = Debug;
+		};
+		D986340421FFBEB100D9195F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dungeons and Dragon DiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOS-2019.Dungeons-and-Dragon-DiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dungeons and Dragon Dice.app/Dungeons and Dragon Dice";
+			};
+			name = Release;
+		};
+		D986340621FFBEB100D9195F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dungeons and Dragon DiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOS-2019.Dungeons-and-Dragon-DiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dungeons and Dragon Dice";
+			};
+			name = Debug;
+		};
+		D986340721FFBEB100D9195F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dungeons and Dragon DiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOS-2019.Dungeons-and-Dragon-DiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dungeons and Dragon Dice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D98633D221FFBEAE00D9195F /* Build configuration list for PBXProject "Dungeons and Dragon Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98633FD21FFBEB100D9195F /* Debug */,
+				D98633FE21FFBEB100D9195F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98633FF21FFBEB100D9195F /* Build configuration list for PBXNativeTarget "Dungeons and Dragon Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D986340021FFBEB100D9195F /* Debug */,
+				D986340121FFBEB100D9195F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D986340221FFBEB100D9195F /* Build configuration list for PBXNativeTarget "Dungeons and Dragon DiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D986340321FFBEB100D9195F /* Debug */,
+				D986340421FFBEB100D9195F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D986340521FFBEB100D9195F /* Build configuration list for PBXNativeTarget "Dungeons and Dragon DiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D986340621FFBEB100D9195F /* Debug */,
+				D986340721FFBEB100D9195F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D98633CF21FFBEAE00D9195F /* Project object */;
+}
